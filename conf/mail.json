@@ -1,0 +1,6 @@
+{
+    "stmp_server": "smtp.qq.com",
+    "stmp_port": "587",
+    "stmp_user_name": "xxxx@qq.com",
+    "stmp_auth_token": ""
+}
