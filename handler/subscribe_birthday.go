@@ -9,12 +9,12 @@ import (
 )
 
 func WrapSubjectBirthDay() {
-	SubjectBirthDay("xxxx@qq.com")
+	SubscribeBirthDay("xxxx@qq.com")
 	//SubjectBirthDay("370286558@qq.com")
 
 }
 
-func SubjectBirthDay(email string) {
+func SubscribeBirthDay(email string) {
 	todayBirthdays := service.BirthDayServiceIstance.GetTodayBirthDays()
 	if len(todayBirthdays) == 0 {
 		return

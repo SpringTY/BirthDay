@@ -14,7 +14,7 @@ func main() {
 	mailConfig := "./conf/mail.json"
 	service.BirthDayServiceIstance.Init(birthDayConfig)
 	service.SMTPMailServiceIstance.Init(mailConfig)
-	handler.SubjectBirthDay("xxxx@qq.com")
+	handler.SubscribeBirthDay("xxxx@qq.com")
 
 	c := cron.New()
 
